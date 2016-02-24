@@ -1,0 +1,10 @@
+# Application dependency directory
+/node_modules
+
+/.idea
+npm-debug.log*
+
+# Client dependency directory
+client/libs
+
+app_with_env.js

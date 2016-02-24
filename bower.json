@@ -1,0 +1,25 @@
+{
+  "name": "sea-battle",
+  "version": "0.0.1",
+  "author": {
+    "name": "Andrey Glazunov",
+    "email": "gvinar@yandex.ru",
+    "url": ""
+  },
+  "contributors": [
+    {
+      "name": "Ilya Dalechin",
+      "email": "",
+      "url": ""
+    }
+  ],
+  "description": "Sea battle",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+  ],
+  "dependencies": {
+  }
+}

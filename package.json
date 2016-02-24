@@ -1,0 +1,36 @@
+{
+  "name": "sea-battle",
+  "version": "0.0.1",
+  "description": "Sea Battle",
+  "main": "app.js",
+  "scripts": {
+    "postinstall": "gulp bower"
+  },
+  "author": {
+    "name": "Andrey Glazunov",
+    "email": "gvinar@yandex.ru",
+    "url": ""
+  },
+  "contributors": [
+    {
+      "name": "Ilya Dalechin",
+      "email": "",
+      "url": ""
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.3.1"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.1",
+    "jshint-stylish": "^2.1.0",
+    "mocha": "^2.4.5",
+    "bower": "^1.7.7",
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.0",
+    "gulp-bower": "^0.0.13",
+    "gulp-mocha": "^2.2.0",
+    "gulp-env": "^0.4.0"
+  }
+}
