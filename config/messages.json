@@ -1,6 +1,7 @@
 {
   "COMMON": {
-    "PARAMETER_MISSING": "Parameter {paramName} is missing"
+    "PARAMETER_MISSING": "Parameter {paramName} is missing",
+    "APPLICATION_STARTED": "Application started on port {port}"
   },
   "DATABASE": {
     "MONGO_CONNECTING": "!!!mongo about to connect to: {url}",

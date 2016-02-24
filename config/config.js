@@ -8,6 +8,7 @@ if (!process.env.NODE_ENV) {
 require("./appDefaultEnv_" + process.env.NODE_ENV);
 
 let config = {
+    applicationPort: process.env.APPLICATION_PORT,
     database: {
         connectionUrl: format(process.env.DB_URL, { username: process.env.DB_USERNAME, password: process.env.DB_PASSWORD, dbName: process.env.DB_NAME })
     }
