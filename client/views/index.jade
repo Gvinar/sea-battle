@@ -1,6 +1,17 @@
 doctype html
 html(lang="en")
    head
-      title
-         | Sea Battle
+      title Sea Battle
+      link(href='https://fonts.googleapis.com/css?family=Roboto:400,500,300,700', rel='stylesheet', type='text/css')
+      link(href='https://fonts.googleapis.com/css?family=UnifrakturCook:700&subset=latin,latin-ext', rel='stylesheet', type='text/css')
+      link(href='css/normalize.css', rel='stylesheet')
+      link(href='css/style.css', rel='stylesheet')
+      meta(charset="UTF-8")
    body
+      div.container
+         header.header
+            h1.logo.header__logo SeaBattle_1.0
+            div.login
+               p.login_name Name
+               a.login_exit Log in
+
