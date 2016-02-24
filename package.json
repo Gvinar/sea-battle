@@ -7,20 +7,19 @@
     "postinstall": "gulp bower"
   },
   "author": {
-    "name": "Andrey Glazunov",
-    "email": "gvinar@yandex.ru",
-    "url": ""
+    "name": "Andrey Glazunov"
   },
   "contributors": [
     {
-      "name": "Ilya Dalechin",
-      "email": "",
-      "url": ""
+      "name": "Ilya Dalechin"
     }
   ],
   "license": "MIT",
   "dependencies": {
-    "bluebird": "^3.3.1"
+    "bluebird": "^3.3.1",
+    "fomatto": "^0.5.0",
+    "mongoose": "4.2.9",
+    "lodash": "^4.5.1"
   },
   "devDependencies": {
     "jshint": "^2.9.1",

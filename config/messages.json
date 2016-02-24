@@ -1,0 +1,15 @@
+{
+  "COMMON": {
+    "PARAMETER_MISSING": "Parameter {paramName} is missing"
+  },
+  "DATABASE": {
+    "MONGO_CONNECTING": "!!!mongo about to connect to: {url}",
+    "AUTH_ERROR": "Unable to connect to MongoDB with error: {message}",
+    "CONNECTION_ERROR": "Mongoose had an error type: {name}, and error: {message}",
+    "CLOSE_CONNECTION_FAIL": "Failed to close connection with error: {error}",
+    "DISCONNECT_FAILED": "MongoDB can't close connection. Error: {error}",
+    "CONNECTION_OPENED": "MongoDB connection successfully opened",
+    "CONNECTION_CLOSED": "MongoDB connection successfully closed",
+    "ERRORS_DURING_SAVING": "Some errors occurred during saving {collectionName}. Errors: {errors}"
+  }
+}
