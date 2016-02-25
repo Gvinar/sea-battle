@@ -4,12 +4,13 @@ let express = require('express');
 let routes = require('./routes/routes');
 let messages = require('./config/messages');
 let config = require('./config/config');
-var di = require("./config/initDI");
+let DI = new require("./config/initDI");
 let IndexController = require('./controllers/indexController');
 let logger;
 
 let app = express();
-var indexController = di.get(IndexController);
+let di = new DI(config);
+let indexController = di.get(IndexController);
 
 routes.setup(app, indexController);
 

@@ -1,7 +1,8 @@
 {
   "COMMON": {
     "PARAMETER_MISSING": "Parameter {paramName} is missing",
-    "APPLICATION_STARTED": "Application started on port {port}"
+    "APPLICATION_STARTED": "Application started on port {port}",
+    "DI_DUPLICATE_REGISTRY": "Duplicate registry for dependency injection. Registry: {registry}"
   },
   "DATABASE": {
     "MONGO_CONNECTING": "!!!mongo about to connect to: {url}",
