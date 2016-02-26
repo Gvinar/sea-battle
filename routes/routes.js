@@ -3,8 +3,8 @@
 
 let routes = {
     setup: function (app, indexController) {
-        app.get("", () => {
-
+        app.get("", (req, res) => {
+            indexController.getStartPage(req, res);
         });
     }
 };

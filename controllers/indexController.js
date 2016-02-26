@@ -1,11 +1,12 @@
 "use strict";
 
-let BaseController = require('./baseController');
+let path = require('path');
+let BaseController = require('./BaseController');
 
 class IndexController extends BaseController{
     getStartPage(request, response){
         let startPagePath = path.resolve("client/views/index.html");
-        response.sendfile(startPagePath);
+        response.sendFile(startPagePath);
     }
 }
 
