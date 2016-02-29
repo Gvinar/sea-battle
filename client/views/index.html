@@ -6,17 +6,18 @@
     <link href="https://fonts.googleapis.com/css?family=UnifrakturCook:700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <script src="../../node_modules/es6-shim/es6-shim.min.js"></script>
+    <script src="../../node_modules/angular2/es6/dev/src/testing/shims_for_IE.js"></script>
+    <script src="../../node_modules/angular2/bundles/angular2-polyfills.js"></script>
+    <script src="../../node_modules/rxjs/bundles/Rx.umd.js"></script>
+    <script src="../../node_modules/angular2/bundles/angular2-all.umd.js"></script>
+    <script src="../scripts/app.start.js"></script>
+    <script src="../scripts/main.js"></script>
     <meta charset="UTF-8">
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <h1 class="logo header__logo">SeaBattle_1.0</h1>
-        <div class="login">
-          <p class="login__name">Name</p><a class="login__link">Log in</a>
-        </div>
-        <p class="label_head">The Game for really Sea Wolves</p>
-      </div>
-    </header>
+    <div class="container">
+      <my-app></my-app>
+    </div>
   </body>
 </html>
