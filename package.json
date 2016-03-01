@@ -4,7 +4,9 @@
   "description": "Sea Battle",
   "main": "app.js",
   "scripts": {
-    "postinstall": "gulp bower"
+    "postinstall": "gulp bower",
+    "start": "npm run lite",
+    "lite": "lite-server"
   },
   "author": {
     "name": "Andrey Glazunov"
@@ -21,7 +23,13 @@
     "mongoose": "4.2.9",
     "lodash": "^4.5.1",
     "express": "^4.13.4",
-    "bunyan": "^1.7.0"
+    "bunyan": "^1.7.0",
+    "angular2": "2.0.0-beta.7",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.3",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.2",
+    "zone.js": "0.5.15"
   },
   "devDependencies": {
     "jshint": "^2.9.1",
@@ -32,6 +40,8 @@
     "gulp-jshint": "^2.0.0",
     "gulp-bower": "^0.0.13",
     "gulp-mocha": "^2.2.0",
-    "gulp-env": "^0.4.0"
+    "gulp-env": "^0.4.0",
+    "concurrently": "^2.0.0",
+    "lite-server": "^2.1.0"
   }
 }
