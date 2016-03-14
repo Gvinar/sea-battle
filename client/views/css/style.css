@@ -14,7 +14,7 @@ body {
   vertical-align: top;
   font-family: Roboto;
   font-weight: 400;
-  background: rgba(3,161,254,0.29);
+  background: #82b1ff;
 }
 p,
 h1,
@@ -37,36 +37,36 @@ a {
   width: 100%;
   max-width: 1022px;
   margin: 0 auto;
+  height: 100%;
 }
 .header {
   width: 100%;
   height: 90px;
-  background: #03a1fe;
+  background: #3586ff;
   color: #fff;
-  text-align: right;
-  box-shadow: 0 2px 4px 0 #545454;
 }
-.header__logo {
+.logo_head {
   font-family: "Old English Text MT";
   font-size: 60px;
   padding: 10px 0 0 40px;
-  text-shadow: 3px 4px 5px rgba(0,0,0,0.529);
+  text-shadow: 3px 3px 5px rgba(0,0,0,0.529);
   display: inline-block;
   float: left;
 }
 .login {
-  display: inline-block;
+  display: block;
   text-align: right;
   vertical-align: top;
-  margin-top: 10px;
-  margin-right: 30px;
-  font-size: 18px;
+  padding: 10px 30px 0 0;
+  text-shadow: 0 0 2px #424242;
 }
 .login__name {
   display: inline-block;
 }
-.login__link:hover {
+.login__exit {
   cursor: pointer;
+}
+.login__exit:hover {
   text-decoration: underline;
 }
 .login__name:after {
@@ -74,7 +74,63 @@ a {
   margin: 0 10px;
 }
 .label_head {
-  margin: 15px 30px 0 0;
-  font-size: 26px;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.529);
+  font-size: 24px;
+  text-align: right;
+  padding-right: 30px;
+  margin-top: 15px;
+  text-shadow: 0 0 2px #424242;
+}
+.start {
+  margin: 200px auto;
+  width: 400px;
+  border-radius: 4px;
+  color: #fff;
+  padding-top: 12px;
+  text-align: center;
+  background: #fff;
+  box-shadow: 0 12px 15px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  padding-bottom: 5px;
+}
+.start__button {
+  background: #1976d2;
+  width: 90%;
+  height: 50px;
+  line-height: 45px;
+  font-size: 30px;
+  border: 2px solid #1976d2;
+  border-radius: 4px;
+  margin: 10px auto;
+  color: #fff;
+  box-shadow: 0 6px 15px 0 rgba(0,0,0,0.2), 0 4px 16px 0 rgba(0,0,0,0.25);
+  transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+  transform: translate3d(0px, 0px, 0px);
+}
+.start__button:hover {
+  cursor: pointer;
+  color: #1976d2;
+  background: #fff;
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.35);
+}
+.start__button_big {
+  background: #2196f3;
+  height: 120px;
+  font-size: 55px;
+  line-height: 115px;
+  width: 90%;
+  margin-bottom: 15px;
+  border: 2px solid #2196f3;
+}
+.start__button_big:hover {
+  color: #2196f3;
+}
+.start__text {
+  font-size: 18px;
+  width: 90%;
+  display: block;
+  margin: 5px auto 15px;
+  color: #fff;
+  background: #64b5f6;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2), 0 2px 5px 0 rgba(0,0,0,0.19);
 }

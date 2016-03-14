@@ -11,13 +11,16 @@
     <script src="../../node_modules/angular2/bundles/angular2-polyfills.js"></script>
     <script src="../../node_modules/rxjs/bundles/Rx.umd.js"></script>
     <script src="../../node_modules/angular2/bundles/angular2-all.umd.js"></script>
-    <script src="../scripts/app.start.js"></script>
+    <script src="node_modules/angular2/bundles/router.dev.js"></script>
+    <script src="../scripts/start.component.js"></script>
+    <script src="../scripts/signIn.component.js"></script>
     <script src="../scripts/main.js"></script>
     <meta charset="UTF-8">
   </head>
   <body>
     <div class="container">
-      <my-app></my-app>
+      <start-app></start-app>
+      <router-outlet></router-outlet>
     </div>
   </body>
 </html>
