@@ -1,7 +1,7 @@
 doctype html
 html(lang="en")
    head
-
+      script document.write('<base href="' + document.location + '" />');
       title Sea Battle
       link(href='https://fonts.googleapis.com/css?family=Roboto:400,500,300,700', rel='stylesheet', type='text/css')
       link(href='https://fonts.googleapis.com/css?family=UnifrakturCook:700&subset=latin,latin-ext', rel='stylesheet', type='text/css')
@@ -12,12 +12,12 @@ html(lang="en")
       script(src="../../node_modules/angular2/bundles/angular2-polyfills.js")
       script(src="../../node_modules/rxjs/bundles/Rx.umd.js")
       script(src="../../node_modules/angular2/bundles/angular2-all.umd.js")
-      script(src="node_modules/angular2/bundles/router.dev.js")
+      script(src="../../node_modules/angular2/bundles/router.dev.js")
+      script(src='../scripts/app.component.js')
       script(src='../scripts/start.component.js')
       script(src='../scripts/signIn.component.js')
       script(src='../scripts/main.js')
       meta(charset="UTF-8")
    body
       div.container
-         start-app
-         router-outlet
+         my-app

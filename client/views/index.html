@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script>document.write('<base href="' + document.location + '" />');</script>
     <title>Sea Battle</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,300,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=UnifrakturCook:700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
@@ -11,7 +12,8 @@
     <script src="../../node_modules/angular2/bundles/angular2-polyfills.js"></script>
     <script src="../../node_modules/rxjs/bundles/Rx.umd.js"></script>
     <script src="../../node_modules/angular2/bundles/angular2-all.umd.js"></script>
-    <script src="node_modules/angular2/bundles/router.dev.js"></script>
+    <script src="../../node_modules/angular2/bundles/router.dev.js"></script>
+    <script src="../scripts/app.component.js"></script>
     <script src="../scripts/start.component.js"></script>
     <script src="../scripts/signIn.component.js"></script>
     <script src="../scripts/main.js"></script>
@@ -19,8 +21,7 @@
   </head>
   <body>
     <div class="container">
-      <start-app></start-app>
-      <router-outlet></router-outlet>
+      <my-app></my-app>
     </div>
   </body>
 </html>
